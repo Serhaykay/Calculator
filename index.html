@@ -1,0 +1,33 @@
+<!DOCTYPE html >
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <title>My JavaScript Tutorial</title>
+</head>
+<body>
+     <div class="calc">
+      <h1>Calculator</h1>
+      <input type="text" value="0" id="display">
+      <button id="plusbtn" onclick="inputNumbers(document.getElementById('plusbtn').value)" value="+">+</button>
+      <button id="subtractbtn" onclick="inputNumbers(document.getElementById('subtractbtn').value)" value="-">-</button>
+      <button id="multiplybtn" onclick="inputNumbers(document.getElementById('multiplybtn').value)" value="*">×</button>
+      <button id="dividebtn" onclick="inputNumbers(document.getElementById('dividebtn').value)" value="/">/</button>
+      <button id="onebtn" onclick="inputNumbers(document.getElementById('onebtn').value)" value="1">1</button>
+      <button id="delbtn" onclick="clearNumbers(document.getElementById('delbtn').value)" value="">C</button>
+      <button id="twobtn" onclick="inputNumbers(document.getElementById('twobtn').value)" value="2">2</button>
+      <button id="threebtn" onclick="inputNumbers(document.getElementById('threebtn').value)" value="3">3</button>
+      <button id="fourbtn" onclick="inputNumbers(document.getElementById('fourbtn').value)" value="4">4</button>
+      <button id="fivebtn" onclick="inputNumbers(document.getElementById('fivebtn').value)" value="5">5</button>
+      <button id="sixbtn" onclick="inputNumbers(document.getElementById('sixbtn').value)" value="6">6</button>
+      <button id="sevenbtn" onclick="inputNumbers(document.getElementById('sevenbtn').value)" value="7">7</button>
+      <button id="eightbtn" onclick="inputNumbers(document.getElementById('eightbtn').value)" value="8">8</button>
+      <button id="ninebtn" onclick="inputNumbers(document.getElementById('ninebtn').value)" value="9">9</button>
+      <button id="zerobtn" onclick="inputNumbers(document.getElementById('zerobtn').value)" value="0">0</button>
+      <button id="equalsbtn" onclick="answer(document.getElementById('equalsbtn').value)" value="=">=</button>
+      
+     </div>  
+ <script src="js/index.js"></script>
+</body>
+</html>
